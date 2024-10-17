@@ -85,6 +85,12 @@ function getItemPriceByName(items, name) {
 function getItemsByCategory(items, category) {
   // TODO: use `filter`
 
+  // Tried this code, didn't work
+//   items.filter((item, category) => {
+//     return item.category === category
+//   }
+// );
+
   // Removed curly braces again to make code work. Very Very confused
   // return items.filter((item) => {item.category === category});
 

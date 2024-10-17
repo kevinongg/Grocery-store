@@ -31,12 +31,13 @@ function getUppercaseNames(items) {
   // return items.map((item) => {item.name.toUpperCase()});
 
   // Removed curly braces and the code worked, I'm confused why?
-  // return items.map((item) => {item.name.toUpperCase()});
+  // return items.map((item) => item.name.toUpperCase());
  
-  // This doesn't work, I feel like I'm just confusing myself doing it this way
+//   This doesn't work, I feel like I'm just confusing myself doing it this way
 //   const itemMap = items.map((item) => {
-//     return `($items}`}
-//   )
+//     return item.name.toUppperCase())
+//      }
+  
 // }
 
   // Googled .toUpperCase() method to apply to .map
